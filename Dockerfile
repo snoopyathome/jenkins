@@ -7,3 +7,5 @@ RUN apk add --update --repository http://dl-3.alpinelinux.org/alpine/edge/main p
     pip3 install docker &&\
     pip3 install hcloud &&\
     rm -rf /var/cache/apk/*
+
+USER jenkins
