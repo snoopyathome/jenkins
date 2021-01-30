@@ -6,3 +6,5 @@ RUN apk add --update --repository http://dl-3.alpinelinux.org/alpine/edge/main p
     pip3 install pywinrm &&\
     pip3 install docker &&\
     rm -rf /var/cache/apk/*
+
+USER jenkins
